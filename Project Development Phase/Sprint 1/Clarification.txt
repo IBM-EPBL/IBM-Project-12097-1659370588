@@ -1,0 +1,1 @@
+The deliverables for Sprints 1 and 2 have together been submitted as an .ipynb file in the Sprint 2 folder. 
