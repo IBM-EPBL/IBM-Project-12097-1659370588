@@ -1,0 +1,10 @@
+.profile {
+    height: 2rem;
+    border-radius: 100%;
+    width: auto;
+    cursor: pointer;
+  }
+
+.spaceout-x {
+	padding-left: 10px;
+}

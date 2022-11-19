@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Dashboard - Citi Bike Sharing System Dashboard</title>
+    <meta content="" name="description" />
+
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="homepage.css" />
+
+    <!-- =======================================================
+  * Template Name: FlexStart - v1.11.1
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top">
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      >
+        <a href="homepage.html" class="logo d-flex align-items-center">
+          <img src="assets/img/logo.png" alt="" />
+          <span>CitiScape</span>
+        </a>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#ibm-dashboard">Cognos</a>
+            </li>
+            <li><a class="nav-link scrollto" href="#prediction">Prediction</a></li>
+            <li><a class="nav-link scrollto" href="#team">Team</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            <li class="dropdown spaceout-x">
+              <a href="#"
+                ><img src="./assets/img/profile.png" class="profile"
+              /></a>
+              <ul>
+                <li>
+                  <div class="d-flex justify-content-around">
+                    <a href="#" class="pl-3"
+                      ><img src="./assets/img/profile.png" class="profile"
+                    /></a>
+                    <hr class="solid" />
+                    <a id="useremail" class="pl-3"></a>
+                  </div>
+                </li>
+                <li><a href="login.html?#">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="hero d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <h1 id="user-welcome" class="text-capitalize" data-aos="fade-up">
+              Welcome
+            </h1>
+            <h2 class="pt-3" data-aos="fade-up" data-aos-delay="400">
+              Gain actionable insights to the Citi Bike dataset with our
+              interactive dashboard
+            </h2>
+            <div data-aos="fade-up" data-aos-delay="600">
+              <div class="text-center text-lg-start">
+                <a
+                  href="#ibm-dashboard"
+                  class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center"
+                >
+                  <span>View Dashboard</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 hero-img"
+            data-aos="zoom-out"
+            data-aos-delay="200"
+          >
+            <img src="assets/img/hero-img.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= Features Section ======= -->
+      <section id="features" class="features">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>Features</h2>
+            <p>Why IBM Cognos?</p>
+          </header>
+
+          <!-- Feature Icons -->
+          <div class="row feature-icons mt-4" data-aos="fade-up">
+            <div class="row">
+              <div
+                class="col-xl-4 text-center"
+                data-aos="fade-right"
+                data-aos-delay="100"
+              >
+                <img
+                  src="assets/img/features-3.png"
+                  class="img-fluid p-4"
+                  alt=""
+                />
+              </div>
+
+              <div class="col-xl-8 d-flex content">
+                <div class="row align-self-center gy-4">
+                  <div class="col-md-6 icon-box" data-aos="fade-up">
+                    <i class="ri-line-chart-line"></i>
+                    <div>
+                      <h4>Accelerate data prep with AI</h4>
+                      <p>
+                        Use built-in AI to accelerate and improve blending data
+                        or finding the optimal tables for your model
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <i class="ri-stack-line"></i>
+                    <div>
+                      <h4>Automate data exploration</h4>
+                      <p>
+                        Uncover hidden trends and drivers with the help of AI so
+                        you can get the facts behind your data and deliver
+                        insights in real time
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
+                    <i class="ri-brush-4-line"></i>
+                    <div>
+                      <h4>Visualize and report on data</h4>
+                      <p>
+                        Create powerful visualizations, tell the story of your
+                        data and share insights via email, Slack, or the mobile
+                        app
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
+                    <i class="ri-magic-line"></i>
+                    <div>
+                      <h4>Scale and integrate</h4>
+                      <p>
+                        Bring together advanced analytics and data science into
+                        daily operations and seize new opportunities
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="400"
+                  >
+                    <i class="ri-command-line"></i>
+                    <div>
+                      <h4>Protect your data</h4>
+                      <p>
+                        Governed self-service analytics adapts to your
+                        requirements and protects data from misuse
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="500"
+                  >
+                    <i class="ri-radar-line"></i>
+                    <div>
+                      <h4>Clean and connect data</h4>
+                      <p>
+                        Create stunning data visualizations and gain insights
+                        into your business performance
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Feature Icons -->
+        </div>
+      </section>
+      <!-- End Features Section -->
+
+      <!-- Story Section -->
+      <section id="ibm-story" class="ibm-story">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>IBM Cognos</h2>
+            <p>Story</p>
+          </header>
+
+          <iframe
+            src="https://us1.ca.analytics.ibm.com/bi/?perspective=story&amp;pathRef=.my_folders%2FDashboards%2FCitibike_story&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=view&amp;mode=dashboard"
+            width="100%"
+            height="700"
+            frameborder="0"
+            gesture="media"
+            allow="encrypted-media"
+            allowfullscreen=""
+          ></iframe>
+        </div>
+      </section>
+      <!-- End of Dashboard Section -->
+
+      <!-- Dashboard Section -->
+      <section id="ibm-dashboard" class="ibm-dashboard">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>IBM Cognos</h2>
+            <p>Dashboard</p>
+          </header>
+
+          <iframe
+            src="https://us1.ca.analytics.ibm.com/bi/?perspective=dashboard&amp;pathRef=.my_folders%2FDashboards%2FNYC_Dashboard&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=view&amp;mode=dashboard"
+            width="100%"
+            height="700"
+            frameborder="0"
+            gesture="media"
+            allow="encrypted-media"
+            allowfullscreen=""
+          >
+          </iframe>
+        </div>
+      </section>
+      <!-- End of Dashboard Section -->
+
+      <!-- Prediction Section -->
+      <section id="ibm-dashboard" class="ibm-dashboard">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>IBM Cognos</h2>
+            <p>Predictions</p>
+          </header>
+          <p>The gender attribute for some of the records was unknown. A logistic regression model was used to predict the gender attribute when it is unknown </p>
+          <iframe src="https://us1.ca.analytics.ibm.com/bi/?perspective=dashboard&amp;pathRef=.my_folders%2FDashboards%2FNYC_ML_Dashboard&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=view&amp;mode=dashboard&amp;subView=model000001848db0a450_00000003" width="100%" height="700" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+        </div>
+      </section>
+      <!-- End of Prediction Section -->
+
+      <!-- ======= Counts Section ======= -->
+      <section id="counts" class="counts">
+        <div class="container" data-aos="fade-up">
+          <div class="row gy-4">
+            <div class="col-lg-3 col-md-6">
+              <div class="count-box">
+                <i class="bi bi-calendar-date"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="2018"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                  ></span>
+                  <p>Year</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="count-box">
+                <i class="bi bi-arrow-right-square" style="color: #ee6c20"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="59"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                    style="color: #ee6c20"
+                  ></span>
+                  <p>Start Stations</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="count-box">
+                <i class="bi bi-geo-alt-fill" style="color: #15be56"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="124"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                    style="color: #15be56"
+                  ></span>
+                  <p>End Stations</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="count-box">
+                <i class="bi bi-bicycle" style="color: #bb0852"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="903"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                    style="color: #bb0852"
+                  ></span>
+                  <p>Citi Bikes</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Counts Section -->
+
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>Team</h2>
+            <p>Our Team</p>
+          </header>
+
+          <div class="row gy-4">
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/team-1.jpg"
+                    class="img-fluid h-100"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href="https://github.com/aadithya-sesh68"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Aadithya Seshadri</h4>
+                  <span>2019115001</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/team-2.jpg"
+                    class="img-fluid h-100"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-github"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>E Asmitha Shrree</h4>
+                  <span>2019115024</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/team-3.jpg"
+                    class="img-fluid h-100"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href="https://github.com/Ramanan01"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Ramanan MV</h4>
+                  <span>2019115075</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/team-4.jpeg"
+                    class="img-fluid h-100"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href="https://github.com/Rohit-Parameswaran"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Rohit P</h4>
+                  <span>2019115080</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Team Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>Contact</h2>
+            <p>Contact Us</p>
+          </header>
+
+          <div class="row gy-4">
+            <div class="col-lg-12">
+              <div class="row gy-4">
+                <div class="col-md-3">
+                  <div class="info-box">
+                    <i class="bi bi-geo-alt"></i>
+                    <h3>Address</h3>
+                    <p>College of Engineering Guindy<br />Chennai - 600025</p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="info-box">
+                    <i class="bi bi-telephone"></i>
+                    <h3>Call Us</h3>
+                    <p>+91 9843126698<br />+91 9962906576</p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="info-box">
+                    <i class="bi bi-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>ramananmv01@gmail.com<br />asmitha.eswar@gmail.com</p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="info-box">
+                    <i class="bi bi-clock"></i>
+                    <h3>Open Hours</h3>
+                    <p>Monday - Friday<br />9:00AM - 05:00PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-5 col-md-12 footer-info">
+              <a href="homepage.html" class="logo d-flex align-items-center">
+                <img src="assets/img/logo.png" alt="" />
+                <span>CitiScape</span>
+              </a>
+              <p>
+                Gain actionable insights to the Citi Bike dataset with our
+                interactive dashboard
+              </p>
+            </div>
+
+            <div class="col-lg-2 col-6 footer-links">
+              <h4>Website</h4>
+              <ul>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#">Home</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#ibm-dashboard">Cognos</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#prediction">Prediction</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#team">Team</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-2 col-6 footer-links">
+              <h4>BENEFITS</h4>
+              <ul>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#">Data Visualization</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Data Exploration</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Data Cleaning</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#">Report Generation</a>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
+            >
+              <h4>Contact Us</h4>
+              <p>
+                College of Engineering Guindy <br />
+                Chennai - 600025<br />
+                India <br /><br />
+                <strong>Phone:</strong> +1 9843126698<br />
+                <strong>Email:</strong> ramananmv01@gmail.com<br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>CitiScape</span></strong
+          >. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script>
+      window.onload = function () {
+        const emailId = sessionStorage.getItem("useremail");
+        console.log(emailId)
+        if(emailId === null) 
+          window.location.href = "login.html";
+        else{
+          console.log("page loaded", emailId);
+          document.getElementById("useremail").innerText = emailId;
+
+          document.getElementById("user-welcome").innerText =
+            "Welcome " + emailId.split("@")[0];
+        }
+      };
+    </script>
+  </body>
+</html>
